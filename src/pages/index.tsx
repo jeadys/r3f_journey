@@ -9,7 +9,27 @@ const Home: NextPage = () => {
         <Chapter chapter="Chapter 1" />
         <li>
           <Link href="#">
-            <a>1 - ...</a>
+            <a>01 - ...</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/6-animation">
+            <a>06 - Animation</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/10-debug">
+            <a>10 - Debug</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/11-textures">
+            <a>11 - Textures</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/12-materials">
+            <a>12 - Materials</a>
           </Link>
         </li>
       </ul>
@@ -20,20 +40,40 @@ const Home: NextPage = () => {
             <a>15 - Lights</a>
           </Link>
         </li>
+        <li>
+          <Link href="/16-shadows">
+            <a>16 - Shadows</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/18-particles">
+            <a>18 - Particles</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/19-galaxy">
+            <a>19 - Galaxy</a>
+          </Link>
+        </li>
       </ul>
       <ul>
         <Chapter chapter="Chapter 3" />
         <li>
-          <Link href="#">
-            <a>22 - ...</a>
+          <Link href="/22-physics">
+            <a>22 - Physics</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="/23-models">
+            <a>22 - Models</a>
           </Link>
         </li>
       </ul>
       <ul>
         <Chapter chapter="Chapter 4" />
         <li>
-          <Link href="#">
-            <a>27 - ...</a>
+          <Link href="/27-shaders">
+            <a>27 - Shaders</a>
           </Link>
         </li>
       </ul>
